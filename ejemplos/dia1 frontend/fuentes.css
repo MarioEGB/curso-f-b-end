@@ -1,0 +1,47 @@
+/*
+
+para fuentes
+
+#f_italic{
+	font-family: 'Lakki Reddy', cursive;
+}
+
+#f_normal{
+	font-family: 'Monserrat';
+	font-style: oblique;
+}
+
+#f_negritas{
+	
+	font-family: 'Monserrat';
+	color: orange;
+	font-weight: bold;
+}*/
+
+/*Para Tamaño*/
+h1{
+	line-height: 20dp;
+}
+p{
+	word-spacing: 4px;
+}
+div{
+	width: 50%;
+	background-color: lightblue;
+}
+a{
+	font-size: 1em
+}
+#div2{
+	width: 50%;
+	height:50%;
+	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+.caja{
+	width: 50%;
+	height:50%;
+	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);	
+}
+body{
+	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);		
+}

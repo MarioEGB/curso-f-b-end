@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mi primera pagina</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<script type="text/javascript">
+		function enlace(){
+			alert('Diste click');
+		}
+		document.addEventListener('click',function(){
+			document.getElementById('mi_img');
+			alert('Esto es una imagen');
+		});
+	</script>
+</head>
+<body>
+
+	<!-- <div class="card-panel blue lighten-5">
+		<span>Hola Mundo</span>
+	</div>
+ -->
+ 	<nav>
+ 		<div class="nav-wrapper blue lighten-3">
+ 			<ul>
+ 				<li><a href="#" onmouseover="enlace()">Enlace 1</a></li>
+ 				<li><a href="#">Enlace 2</a></li>
+ 				<li><a href="#">Enlace 3</a></li>
+ 			</ul>
+ 		</div>
+ 	</nav>
+	<div><!-- class="container"> -->
+		<div class="row">
+			<div class="col s2">
+				<img src="images/logo.jpg" class="responsive-img circle z-depth-3">
+				<table>
+					<tr>
+						<th><img src="images/degustadores.svg" class="responsive-img" ></th>
+						<th>Degustadores</th>
+					</tr>
+					<tr>
+						<th><img src="images/blog.svg" class="responsive-img"></th>
+						<th>Blog</th>
+					</tr>
+					<tr>
+						<th><img src="images/lista.svg" class="responsive-img"></th>
+						<th>Lista</th>
+					</tr>
+					<tr>
+						<th><img src="images/camara.svg" class="responsive-img"></th>
+						<th>Camara</th>
+					</tr>
+					<tr>
+						<th><img src="images/acercade.svg" class="responsive-img"></th>
+						<th>Acerca de</th>
+					</tr>
+				</table>
+			</div>
+			<div class="col s10">
+				<img src="images/fondo.jpeg" class="responsive-img z-depth-5" id="mi_img">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col s1">
+					<img src="images/correo.svg" class="responsive-img">
+				</div>
+				
+				<div class="col s6">
+					<p>Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p>
+				</div>
+				<div class="col s4">
+					<input type="text" placeholder="Correo Electronico">
+				</div>
+				<div class="col s1">
+					<a href="http://google.com.mx" class="btn" aling="center">Subribete</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col s3">
+				<div class="card blue lighten-2 white-text" >
+					<div class="card-image">
+						<img src="images/enchiladas.jpg" >
+					</div>
+					<div class="card-content">
+						<h1 class="card-title activator">
+							Enciladas		
+						</h1>	
+						With the best of the season coming from “orchards, farms and gardens,” NPR has put together an impressive collection of 10 summer cookbooks.
+					</div>
+					<div class="card-reveal black-text">
+						<h1 class="card-title activator">
+							Enciladas		
+						</h1>	
+						With the best of the season coming from “orchards, farms and gardens,” NPR has put together an impressive collection of 10 summer cookbooks.
+					</div>
+					<div class="card-action">
+						<p>agosto 16, 20016</p>
+						<a href="#">read</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s3">
+				<div class="card blue lighten-2 white-text" >
+					<div class="card-image">
+						<img src="images/pambazo.jpeg" >
+					</div>
+					<div class="card-content">
+						About a month ago, I ate almost an entire box of kale chips. My brother and I were visiting our cousin in Brooklyn, and before a very thoughtfully prepared vegan…
+					</div>
+					<div class="card-action">
+						<p>agosto 16, 20016</p>
+						<a href="#">read</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s3">
+				<div class="card blue lighten-2 white-text" >
+					<div class="card-image">
+						<img src="images/pollo.jpg" >
+					</div>
+					<div class="card-content">
+						If I could curate a cookbook for you, this would be it.
+					</div>
+					<div class="card-action">
+						<p>agosto 16, 20016</p>
+						<a href="#">read</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s3">
+				<div class="card blue lighten-2 white-text" >
+					<div class="card-image">
+						<img src="images/tacos.jpg" >
+					</div>
+					<div class="card-content">
+						I could not figure out what to do with the delectable slices of Pear Cake that I brought home from this wonderful Sunday supper - eat them slowly, a little bit at…
+					</div>
+					<div class="card-action">
+						<p>agosto 16, 20016</p>
+						<a href="#">read</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+</body>
+</html>
