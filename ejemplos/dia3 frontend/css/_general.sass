@@ -1,0 +1,43 @@
+@import _variables.sass
+
+body
+  background-color: $color
+
+.main
+  //estilos de main
+  article
+    //estilos de article
+    h2
+      //estilos de h2
+      color: $periwinkle
+      text-align: center
+    p
+      //estilos de p
+      font-family: $font-principal
+      font-weight: bold
+      font-size: 120%
+      text-align: justify
+      color: #0d47a1
+      background-color: #90caf9
+
+
+@keyframes slideleft
+  0%
+    transform: translateX(100%)
+  50%
+    transform: translateX(-50%)
+  65%
+    transform: translateX(25%)
+  80%
+    transform: translateX(-25%)
+  100%
+    transform: translateX(0%)
+
+#rollo
+  width: 75px
+  height: 75px
+  position: absolute
+  bottom: 0%
+  right: 2%
+  animation: slideleft 9.0s ease-in-out infinite
+  animation-delay: ls

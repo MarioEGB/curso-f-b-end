@@ -1,0 +1,46 @@
+body {
+  background-color: #26a69a; }
+
+.main article h2 {
+  color: #8a7dff;
+  text-align: center; }
+.main article p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: justify;
+  color: #0d47a1;
+  background-color: #90caf9; }
+
+@keyframes slideleft {
+  0% {
+    transform: translateX(100%); }
+  50% {
+    transform: translateX(-50%); }
+  65% {
+    transform: translateX(25%); }
+  80% {
+    transform: translateX(-25%); }
+  100% {
+    transform: translateX(0%); } }
+#rollo {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  bottom: 0%;
+  right: 2%;
+  animation: slideleft 9s ease-in-out infinite;
+  animation-delay: 0s; }
+
+.nav-wrapper {
+  background-color: #80cbc4; }
+
+.nav a:hover {
+  background-color: #7e57c2;
+  text-decoration: none; }
+
+nav ul li:hover {
+  background: #ce93db;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
